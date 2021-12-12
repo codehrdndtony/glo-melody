@@ -28,14 +28,14 @@ body {
 }
 .navbar-menu {
     margin: 0; /* turn off outside spacing */
-    padding: 0px; /* turn off inside spacing */
+    padding: 0; /* turn off inside spacing */
     list-style: none;
     display: flex;
     text-align: center;
 }
 .navbar-item {
     margin-left: 40px;
-    margin-rught: 40px;
+    margin-right: 40px;
 }
 .navbar-link {
     text-decoration: none;
@@ -85,12 +85,15 @@ body {
     cursor: pointer;
 }
 .home-image path:hover {
-    opacity: 100;
+    opacity: 100%;
 }
 .counter {
     font-family: "Bebas Neue";
     font-size: 124px;
     color: #635854;
+}
+path.current-floor {
+    opacity: 100%;
 }
 .counter-group {
     display: flex;
